@@ -200,7 +200,7 @@ body.base-login .caixa label
 }
 .grade-home .cx-home .cx-body.btn{
 		padding: 0!important;
-    background: #20ab8a!important;
+		background: #20ab8a!important;
     border-radius: 6px;
     display: flex;
     grid-template-columns: auto;

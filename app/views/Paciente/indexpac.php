@@ -38,7 +38,7 @@
 						  <th align="left">ID</th>
 							<th align="left">Nome</th>
 							<th align="left">CPF</th>
-							<th align="center">Celular</th>
+							<th align="center">Plano</th>
 							<th align="center">Ação</th>
 						  </tr>
 						</thead> 
@@ -48,7 +48,7 @@
 								<td><?php echo $paciente->idpaciente; ?></td>
 								<td><?php echo $paciente->nome; ?></td>
 								<td><?php echo $paciente->cpf; ?></td>
-								<td align="center"><?php echo $paciente->cel; ?></td>
+								<td align="center"><?php echo $paciente->plano; ?></td>
 								<td align="center">
 									<a   href="<?php echo URL_BASE."paciente/edit/".$paciente->idpaciente ?>" class="btn btn-outline-warning" title="Editar"> <img src="<?php echo URL_BASE."assets/img/iconoir_edit.svg"?>" alt=""> </a>
 									<a  href="<?php echo URL_BASE."paciente/excluir/".$paciente->idpaciente ?>" class="btn btn-outline-danger" title="exlcluir"><img src="<?php echo URL_BASE."assets/img/iconoir_trash.svg"?>" alt=""></a>
